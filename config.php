@@ -13,7 +13,7 @@
 
     echo "baglanti tamam.";
 
-    mysqli_close($baglanti);
+
 
     echo "baglanti kapatildi.";
 
