@@ -3,10 +3,10 @@
             <a href="/" class="navbar-brand">CourseApp</a>
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Anasayfa</a>
+                    <a href="./index.php" class="nav-link">Anasayfa</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Kurslar</a>
+                    <a href="./courses.php" class="nav-link">Kurslar</a>
                 </li>
             </ul>
         </div>

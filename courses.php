@@ -1,4 +1,4 @@
-<?php require_once('config.php') ?> <!--sayfaya bir kere dahil eder-->
+<?php require_once('config.php') ?>
 
 <?php include('partials/_db.php') ?>
 
@@ -7,7 +7,7 @@
 
 <div class="container my-3">
 
-    <div class="row">
+    <div class="row"> 
 
         <div class="col-3">
             <?php include('partials/_menu.php') ?>
@@ -15,7 +15,7 @@
 
         <div class="col-9">
             <?php foreach ($kurslar as $kurs) : ?>
-                <?php if ($kurs["anasayfaOnay"]) : ?>
+                <?php if ($kurs["onay"]) : ?>
                     <?php include('partials/_course.php') ?>
                 <?php endif; ?>
             <?php endforeach; ?>

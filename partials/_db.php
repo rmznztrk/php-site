@@ -6,6 +6,7 @@ $kurslar = [
         "baslik" => "Web Geliştirme Kursu",
         "aciklama" => "Güzel bir kurs",
         "resim" => "web.jpg",
+        "anasayfaOnay" => true,
         "onay" => true
     ],
     [
@@ -13,6 +14,7 @@ $kurslar = [
         "baslik" => "Python Kursu",
         "aciklama" => "Güzel bir kurs",
         "resim" => "python.png",
+        "anasayfaOnay" => false,
         "onay" => true
     ],
     [
@@ -20,6 +22,7 @@ $kurslar = [
         "baslik" => "Javascript Kursu",
         "aciklama" => "Güzel bir kurs",
         "resim" => "js.png",
+        "anasayfaOnay" => false,
         "onay" => true
     ],
 ];
